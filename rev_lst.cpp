@@ -1,3 +1,4 @@
+#include "easy_list.h"
 void itc_rev_list(vector <int>& mass)
 {
     int c;
