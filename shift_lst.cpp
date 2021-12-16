@@ -3,6 +3,7 @@ void itc_rshift_list(vector <int>& mass)
 {
     vector <int> newmass;
     newmass = mass;
+    if (mass.size() != 0){
     int c;
     for (int i = 0; i < mass.size();i++)
     {
@@ -14,12 +15,13 @@ void itc_rshift_list(vector <int>& mass)
             mass[0] = newmass[i];
     }
 }
-
+}
 
 void itc_super_shift_list(vector <int>& mass, int n)
 {
     vector <int> newmass;
     newmass = mass;
+    if (mass.size() != 0){
     int c;
     if (n > 0)
     {
@@ -47,4 +49,5 @@ void itc_super_shift_list(vector <int>& mass, int n)
         }
     }
 
+}
 }
